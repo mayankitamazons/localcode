@@ -1,0 +1,253 @@
+/* Login */
+.language{
+    padding-bottom: 10px;
+    text-align: right;
+    padding-right: 20px;
+}
+.login-right{
+    padding-top: 3%;
+}
+.favorite {
+    margin-left: 20px;
+}
+.favorite .favorite_name{
+    display: inline-block;
+}
+.favorite .favorite_icon{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.favorite .favorite_icon i{
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.heart {
+    font-size: 25px;
+    color:red;
+}
+
+.referrals .referral_item .referral_label{
+    display: inline-block;
+    width: 180px;
+    font-size: 14px;
+}
+.referrals .referral_item .referral_name {
+    display: inline-block;
+    font-size: 16px;
+}
+
+.referrals .referral_item .referral_chat{
+    display: inline-block;
+}
+
+.count-icon {
+    display: inline-block;
+    position: relative;
+}
+
+.count {
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+    height: 16px;
+    width: 16px;
+    
+    background: #6a6b32;
+    border-radius: 8px;
+    
+    font-size: 12px;    
+    text-align: center;
+
+    display: none;
+}
+
+.fa-comment{
+   color: #00f9e4;
+}
+.transaction_num{
+    display: inline-block;
+    margin: 0 10px;
+    margin: 1.25rem 0.7rem 0.625rem 0.7rem;
+}
+.favorite_num{
+    display: inline-block;
+    margin: 0px 10px;
+    margin: 1.25rem 0.7rem 0.625rem 0.7rem;
+}
+
+.badge-notify{
+    background:red;
+    position:relative;
+    top: -20px;
+    left: -35px;
+ }
+
+ .glyphicon{
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+ }
+ .glyphicon-comment:before{
+    content: "\e111";
+ }
+ 
+ .nature_image{
+     width:50px;
+     height: 50px;
+ }
+ .table_nature{
+     width: 25px;
+ }
+ .member_image{
+     width:50px;
+ }
+ 
+ .favorite_tr td a, .nearby_tr td a{
+     color: #80dc71;
+ }
+@media (max-width: 600px){
+/*
+    .navbar-nav > li > a{
+        padding: 0 1em;
+    }
+*/
+.navbar-nav > li > a {
+    padding: 0 5px;
+}
+}
+@media only screen and (max-width: 900px) and (min-width: 360px)  {
+    table.table.table-striped {
+        overflow: scroll;
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+
+        overflow-y: auto;
+
+		/* height:300px; */
+    }
+    table#without_table
+    {
+    max-height:300px;
+     overflow: scroll!important;
+    }
+    .favorite_name{
+        font-size: 14px;
+        margin: 0.5rem 0 0.5rem;
+    }
+/*
+    .favorite .favorite_icon{
+        margin-left:5px;
+        margin-right:5px;
+    }
+*/
+
+.favorite .favorite_icon {
+    margin-right: 5px;
+    margin-left: 25px;
+}
+    .favorite .favorite_icon i{
+        padding-top:10px;
+        font-size:20px;
+    }
+    .nature_image{
+        height:25px;
+        width:25px;
+    }
+    .transaction_num{
+        font-size:14px;
+        margin: 0.7rem 0.2rem 0.6rem 0.3rem;
+    }
+    .favorite_num{
+        font-size:14px;
+        margin: 0.7rem 0.0rem 0.6rem 0.0rem;
+    }
+    .starting-bracket{
+        font-size: 17px;
+        margin: 0.8rem 0 0.625rem;
+    }
+    .favorite_icon .white{
+        color: red;
+    }
+}
+
+@media (max-width: 960px) {
+.side-user {
+    display: block!important;
+}
+}
+@media only screen and (max-width: 500px) and (min-width: 360px)  {
+.login-left {
+    width: 91%;
+}
+i.fa.fa-bars {
+    font-size: 30px!important;
+}
+.login-form {
+    width: 70%;
+    margin: 2em auto;
+    margin-left: 35px;
+}
+hr.first_test {
+    width: 90px!important;    
+}
+hr.second_test {
+    width: 90px!important;
+}
+.navbar-nav > li > a {
+    padding: 0 6px;
+}
+}
+@media only screen and (max-width: 450px) and (min-width: 400px){
+hr.first_test {
+    width: 105px!important;
+}
+hr.second_test {
+    width: 105px!important;
+}
+}
+@media only screen and (max-width: 800px) and (min-width: 700px){
+hr.second_test {
+    width: 120px!important;
+    margin-right: 25px!important;
+}
+hr.first_test {
+    width: 120px!important;
+    float: left;
+    margin-left: 35px!important;
+    margin-right: 14px!important;
+}
+}
+@media only screen and (max-width: 700px) and (min-width: 600px){
+hr.second_test {
+    width: 100px!important;
+    margin-right: 42px!important;
+}
+hr.first_test {
+    width: 100px!important;
+    float: left;
+    margin-left: 35px!important;
+    margin-right: 14px!important;
+}
+}
+
+
+@media screen and (max-width: 600px) and (min-width: 300px) { 
+.sidebar-dark .side-menu li a {
+    color: #ffffff;
+    font-size: 14px;
+    margin: 0;
+    line-height: 3;
+}
+.navbar-brand {
+    width: 86%;
+    }
+
+}

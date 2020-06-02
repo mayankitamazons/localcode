@@ -1,0 +1,47 @@
+{
+	"gcm_sender_id": "540868316921",
+	"icons": [
+	{
+      "src": "img/logo_36x36.png",
+      "type": "image/png",
+      "sizes": "36x36"
+    },
+    {
+      "src": "img/logo_48x48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "img/logo_72x72.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "img/logo_96x96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "img/logo_144x144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "img/logo_192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "img/logo_512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+	],
+	"start_url": "/index.php",
+	"short_name": "KooFamilies",
+	"name": "One stop centre for your everything",
+	"background_color": "#4A90E2",
+	"theme_color": "#4A90E2",
+	"orientation":"any",
+	"display": "standalone"
+}

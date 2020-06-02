@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+@media (min-width: 315px) and (max-width: 480px) 
+{
+	img {width:100%;}
+	.wrapper{  width: 94%; float:none;} 
+	.head-left {    width: 100%; }
+	.head-logo { width:50%; margin: 0 auto; float: none; }
+	.head-cont {    width: 66%;    margin-right: 0; }
+	.hd-rightcont {margin:0; }
+	.head-right {  float: right;    width: auto;    margin-top: -12%;    margin-bottom: 5%; }
+	.hd-btn02 { margin:0; }
+	.header-top {background:none; }
+	.left-cotainer {    width: 100%; }
+	.pro-pic {width: 45%;margin: 0 auto;    margin-top: 0px;margin-top: 3%; }
+	.left-icn {float: left; }
+	.box-left { width: 100%;}
+	.hd-btn {margin: 0 2%;  width: 19%;}
+.box-right {margin: 0;    width: 100%;} 
+.title-left {    width: 10%; }
+.prodct-tab {    width: 95%; }
+.c-btn1 { padding: 2% 4%;}
+.c-btn2 { padding: 2% 4%; margin-bottom: 2%;}
+.cont-area4 {    padding: 2%;    width: 98%; background: none; }
+.head-title {    font-size: 16px; }
+.head-title span {float:left; margin-top:2%; }
+@media (min-width: 481px) and (max-width: 767px) { 
+
+
+}
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	
+	
+}
+
+
+
+
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+	
+}

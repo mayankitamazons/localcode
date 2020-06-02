@@ -1,0 +1,1 @@
+importScripts("//cdn.moengage.com/webpush/releases/serviceworker_cdn.min.latest.js?date="+new Date().getUTCFullYear()+""+new Date().getUTCMonth()+""+new Date().getUTCDate());

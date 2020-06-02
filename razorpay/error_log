@@ -1,0 +1,56 @@
+[22-Feb-2018 11:21:09 UTC] PHP Notice:  Undefined index: name in /home/kooexchange/public_html/razorpay/pay.php on line 66
+[22-Feb-2018 11:21:09 UTC] PHP Notice:  Undefined index: email in /home/kooexchange/public_html/razorpay/pay.php on line 67
+[22-Feb-2018 11:21:09 UTC] PHP Notice:  Undefined index: phone in /home/kooexchange/public_html/razorpay/pay.php on line 68
+[22-Feb-2018 11:21:09 UTC] PHP Notice:  Undefined variable: amount in /home/kooexchange/public_html/razorpay/pay.php on line 84
+[22-Feb-2018 11:23:37 UTC] PHP Notice:  Undefined variable: amount in /home/kooexchange/public_html/razorpay/pay.php on line 84
+[02-Apr-2018 10:51:39 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/admintallgreen/public_html/B277/razorpay/pay.php:43) in /home/admintallgreen/public_html/B277/razorpay/pay.php on line 48
+[02-Apr-2018 10:51:41 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'Razorpay\Api\Errors\BadRequestError' with message 'The amount must be at least 100.' in /home/admintallgreen/public_html/B277/razorpay/vendor/razorpay/razorpay/src/Request.php:120
+Stack trace:
+#0 /home/admintallgreen/public_html/B277/razorpay/vendor/razorpay/razorpay/src/Request.php(90): Razorpay\Api\Request->processError(Array, 400, Object(Requests_Response))
+#1 /home/admintallgreen/public_html/B277/razorpay/vendor/razorpay/razorpay/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/admintallgreen/public_html/B277/razorpay/vendor/razorpay/razorpay/src/Entity.php(79): Razorpay\Api\Request->request('POST', 'orders/', Array)
+#3 /home/admintallgreen/public_html/B277/razorpay/vendor/razorpay/razorpay/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/admintallgreen/public_html/B277/razorpay/vendor/razorpay/razorpay/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5 /home/admintallgreen/public_html/B277/razorpay/pay. in /home/admintallgreen/public_html/B277/razorpay/vendor/razorpay/razorpay/src/Request.php on line 120
+[02-Apr-2018 10:51:55 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/admintallgreen/public_html/B277/razorpay/pay.php:43) in /home/admintallgreen/public_html/B277/razorpay/pay.php on line 48
+[02-Apr-2018 10:51:56 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'Razorpay\Api\Errors\BadRequestError' with message 'The amount must be at least 100.' in /home/admintallgreen/public_html/B277/razorpay/vendor/razorpay/razorpay/src/Request.php:120
+Stack trace:
+#0 /home/admintallgreen/public_html/B277/razorpay/vendor/razorpay/razorpay/src/Request.php(90): Razorpay\Api\Request->processError(Array, 400, Object(Requests_Response))
+#1 /home/admintallgreen/public_html/B277/razorpay/vendor/razorpay/razorpay/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/admintallgreen/public_html/B277/razorpay/vendor/razorpay/razorpay/src/Entity.php(79): Razorpay\Api\Request->request('POST', 'orders/', Array)
+#3 /home/admintallgreen/public_html/B277/razorpay/vendor/razorpay/razorpay/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/admintallgreen/public_html/B277/razorpay/vendor/razorpay/razorpay/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5 /home/admintallgreen/public_html/B277/razorpay/pay. in /home/admintallgreen/public_html/B277/razorpay/vendor/razorpay/razorpay/src/Request.php on line 120
+[02-Apr-2018 10:57:01 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/admintallgreen/public_html/B277/razorpay/pay.php:43) in /home/admintallgreen/public_html/B277/razorpay/pay.php on line 48
+[02-Apr-2018 10:57:03 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'Razorpay\Api\Errors\BadRequestError' with message 'The amount must be at least 100.' in /home/admintallgreen/public_html/B277/razorpay/vendor/razorpay/razorpay/src/Request.php:120
+Stack trace:
+#0 /home/admintallgreen/public_html/B277/razorpay/vendor/razorpay/razorpay/src/Request.php(90): Razorpay\Api\Request->processError(Array, 400, Object(Requests_Response))
+#1 /home/admintallgreen/public_html/B277/razorpay/vendor/razorpay/razorpay/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/admintallgreen/public_html/B277/razorpay/vendor/razorpay/razorpay/src/Entity.php(79): Razorpay\Api\Request->request('POST', 'orders/', Array)
+#3 /home/admintallgreen/public_html/B277/razorpay/vendor/razorpay/razorpay/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/admintallgreen/public_html/B277/razorpay/vendor/razorpay/razorpay/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5 /home/admintallgreen/public_html/B277/razorpay/pay. in /home/admintallgreen/public_html/B277/razorpay/vendor/razorpay/razorpay/src/Request.php on line 120
+[02-Apr-2018 10:57:26 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/admintallgreen/public_html/B277/razorpay/pay.php:43) in /home/admintallgreen/public_html/B277/razorpay/pay.php on line 48
+[02-Apr-2018 10:57:27 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'Razorpay\Api\Errors\BadRequestError' with message 'The amount must be at least 100.' in /home/admintallgreen/public_html/B277/razorpay/vendor/razorpay/razorpay/src/Request.php:120
+Stack trace:
+#0 /home/admintallgreen/public_html/B277/razorpay/vendor/razorpay/razorpay/src/Request.php(90): Razorpay\Api\Request->processError(Array, 400, Object(Requests_Response))
+#1 /home/admintallgreen/public_html/B277/razorpay/vendor/razorpay/razorpay/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/admintallgreen/public_html/B277/razorpay/vendor/razorpay/razorpay/src/Entity.php(79): Razorpay\Api\Request->request('POST', 'orders/', Array)
+#3 /home/admintallgreen/public_html/B277/razorpay/vendor/razorpay/razorpay/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/admintallgreen/public_html/B277/razorpay/vendor/razorpay/razorpay/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5 /home/admintallgreen/public_html/B277/razorpay/pay. in /home/admintallgreen/public_html/B277/razorpay/vendor/razorpay/razorpay/src/Request.php on line 120
+[02-Apr-2018 10:58:13 Asia/Kolkata] PHP Fatal error:  Function name must be a string in /home/admintallgreen/public_html/B277/razorpay/pay.php on line 44
+[02-Apr-2018 10:58:58 Asia/Kolkata] PHP Fatal error:  Function name must be a string in /home/admintallgreen/public_html/B277/razorpay/pay.php on line 43
+[02-Apr-2018 00:29:29 America/Chicago] PHP Parse error:  syntax error, unexpected 'cz' (T_STRING) in /home/admintallgreen/public_html/B277/razorpay/pay.php on line 43
+[02-Apr-2018 10:59:45 Asia/Kolkata] PHP Notice:  Undefined index: submit in /home/admintallgreen/public_html/B277/razorpay/pay.php on line 43
+[02-Apr-2018 11:13:35 Asia/Kolkata] PHP Notice:  Undefined index: submit in /home/admintallgreen/public_html/B277/razorpay/pay.php on line 43
+[02-Apr-2018 00:43:57 America/Chicago] PHP Fatal error:  Cannot use [] for reading in /home/admintallgreen/public_html/B277/razorpay/pay.php on line 43
+[02-Apr-2018 11:21:09 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/admintallgreen/public_html/B277/razorpay/pay.php:43) in /home/admintallgreen/public_html/B277/razorpay/pay.php on line 50
+[02-Apr-2018 11:21:12 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'Razorpay\Api\Errors\BadRequestError' with message 'The amount must be at least 100.' in /home/admintallgreen/public_html/B277/razorpay/vendor/razorpay/razorpay/src/Request.php:120
+Stack trace:
+#0 /home/admintallgreen/public_html/B277/razorpay/vendor/razorpay/razorpay/src/Request.php(90): Razorpay\Api\Request->processError(Array, 400, Object(Requests_Response))
+#1 /home/admintallgreen/public_html/B277/razorpay/vendor/razorpay/razorpay/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/admintallgreen/public_html/B277/razorpay/vendor/razorpay/razorpay/src/Entity.php(79): Razorpay\Api\Request->request('POST', 'orders/', Array)
+#3 /home/admintallgreen/public_html/B277/razorpay/vendor/razorpay/razorpay/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/admintallgreen/public_html/B277/razorpay/vendor/razorpay/razorpay/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5 /home/admintallgreen/public_html/B277/razorpay/pay. in /home/admintallgreen/public_html/B277/razorpay/vendor/razorpay/razorpay/src/Request.php on line 120

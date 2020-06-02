@@ -1,0 +1,217 @@
+body {
+    background: inherit;
+    height: 100%;
+    width: 100%
+}
+
+.trust-pilot-main {
+    width: 100%;
+    clear: both
+}
+
+.article-div {
+    width: 23%;
+    margin-right: 1%;
+    float: left
+}
+
+.article-div p {
+    clear: both;
+    font-size: 13px;
+    min-height: 100px;
+    max-height: 120px;
+    vertical-align: bottom
+}
+
+.star-5 {
+    padding-top: 0;
+    padding-right: 15px
+}
+
+.start-5 .star-2 {
+    padding: 0 3px;
+    margin-right: 1px;
+    float: left
+}
+
+.trust-pilot-bottom-main {
+    float: left;
+    width: 100%
+}
+
+.trust-pilot-sections .article-div h2 ,.trust-pilot-sections .article-div h4 {
+    color: #00326a;
+    float: left;
+    width: 95%;
+    min-height: 30px;
+    font-size: 17px;
+    background-color: inherit;
+    margin: .2em 0;
+    /* font-weight: normal; */
+    font-family: Lato Light;
+}
+
+.trust-p-link,.trust-pilot-sections .article-div span {
+    color: #3983cb
+}
+
+.star-rating small {
+    display: inline-block;
+    float: left;
+    width: 95%;
+    padding-top: 25px
+}
+
+.trust-pilot-sections-container .trust-pilot-sections .slick-list draggable .slick-track {
+    height: 200px
+}
+
+.trust-p-link {
+    text-decoration: underline
+}
+
+.trust-pilot-bottom {
+    font-size: 14px;
+    float: left;
+    width: 100%;
+    margin: 2% 0
+}
+
+.trust-pilot-bottom p {
+    font-size: 14px;
+    float: left;
+    width: 50%;
+    margin: 2% 0
+}
+
+.trust-pilot-logo {
+    float: right;
+    width: 50%;
+    margin: 2% 0;
+    text-align: right
+}
+
+.trust-pilot-main .slick-dots {
+    position: absolute;
+    top: -80px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    text-align: right!important
+}
+
+.trust-pilot-main .slick-dots li button {
+    font-size: 0;
+    display: block;
+    width: 20px;
+    height: 18px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 1px solid #fff;
+    outline: 0;
+    background: 0 0;
+    border-radius: 10px
+}
+
+.trust-pilot-main .slick-dots li button:before {
+    font-size: 20px!important;
+    color: #3983cb!important
+}
+
+.trust-pilot-sections .slick-next {
+    right: 5px!important
+}
+
+.trust-pilot-sections .slick-prev {
+    left: 5px!important
+}
+
+.trust-pilot-sections .slick-next:before {
+    content: ">"!important
+}
+
+.trust-pilot-sections .slick-prev:before {
+    content: "<"!important
+}
+
+.trust-pilot-sections .slick-next:before,.trust-pilot-sections .slick-prev:before {
+    font-family: slick;
+    font-size: 32px;
+    line-height: 1;
+    opacity: .75;
+    color: #d8d8d8;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 700
+}
+
+.trust-pilot-sections-container .slick-slider {
+    margin-bottom: 5px!important
+}
+
+@media only screen and (max-width: 420px) {
+    .trust-pilot-bottom p {
+        width:100%;
+        text-align: center
+    }
+
+    .trust-pilot-logo {
+        width: 100%
+    }
+
+    span.trust-pilot-bottom {
+        padding-left: 0
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .trust-pilot-bottom,.trust-pilot-main .red,.trust-pilot-sections .article-div {
+        padding-left:35px
+    }
+
+    .trust-pilot-sections .article-div h2 , .trust-pilot-sections .article-div h4 {
+        color: #00326a;
+        float: left;
+        width: 100%;
+        min-height: 10px;
+        font-size: 17px
+    }
+
+    .trust-pilot-main hr {
+        width: 90%;
+        margin: 0 auto
+    }
+
+    .trust-pilot-logo {
+        text-align: center
+    }
+
+    .trust-pilot-bottom {
+        width: 100%
+    }
+
+    .article-div p {
+        text-align: left
+    }
+
+    .star-5 {
+        padding-top: 5px;
+        padding-right: 15px
+    }
+
+    .trust-pilot-sections-container .slick-slider {
+        margin-bottom: 10px!important
+    }
+}
+.currency-info-page .trust-pilot-sections-container .trust-pilot-sections .slick-dots li button:before {
+     color: #cccaca!important;
+    opacity: 1;
+
+}
+.currency-info-page .trust-pilot-sections-container .trust-pilot-sections .slick-dots li.slick-active button:before {
+      color: #3983cb!important;
+    opacity: 1;
+
+} 

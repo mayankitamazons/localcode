@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+margin: 0 auto;
+font-family: 'Montserrat', sans-serif;
+min-height:100%;
+}
+
+.header-top{ width:100%; background:url(../images/bg-top.png) repeat-x; float:left; margin:0 auto;  }
+.head-left {width:50%; float: left; }
+.head-logo {float: left; }
+.head-cont {  float: left;    margin-left: 3%;    margin-top: 5%;    width: 35%;}
+.hd-btn{float: left; margin: 0 3%; }
+.head-right{ float:right; width:12%; }
+.hd-rightcont{float:right;margin-top:20%; width:100%;}
+.hd-btn02{float: left; margin: 0 5%; }
+.wrapper {width:100%; margin:0 auto; background:#f0f0f0; float: left;}
+.left-cotainer{ }
+.box-left { width: 23%;   background: url(../images/texture.png) repeat;  float: left; box-shadow: 0px 0px 5px 0px rgb(198, 198, 198); padding-bottom:10%; }
+.pro-pic {text-align: center; margin-top:5%;}
+.pic-text {   font-size: 24px;    font-weight: bold; width: 100%; text-align: center; }
+.pic-text span { font-weight:500; font-size:12px; }
+.box-icon {    width:115px;  margin:0 auto; margin-top: 3%; }
+.left-icn {display: inline; margin: 0 2%; }
+.text-menu {  margin-left: 12%;  float: left; margin-top: 6%;}
+.text-menu ul {    margin: 0;    padding: 0; }
+.text-menu ul li {    list-style: none;    margin: 21px 0px 29px 0;}
+.text-menu ul li span {    float: left;    padding-right: 15px;}
+.text-menu ul li a{text-decoration:none; color:#232323;}
+.text-menu ul li a:hover{background:#fffff; color:#232323;}
+.box-right { float: left;    width:90%;    margin-left: 3%;}
+.title { float:left;   background: #ffff;    border-radius: 7px;    box-shadow: 0px 0px 5px 0px rgb(207, 207, 207);  width: 100%;  margin-top: 2%;}
+.title-left {   float: left;margin-top: 5px; margin-left: 7px; }
+.title-right {   float: right;}
+.title-h {    float: right;    clear: both;    margin-top:7px;    margin-left: 10px;    color: #000;    font-weight: bold;}
+.title-h a{text-decoration:none; color:#232323;}
+.title-h a span {font-weight:100;}
+.title-right a { margin-top:10px;    margin-right: 10px;    float: right;}
+.cont-area{ width:100%;    background:url(../images/background-img1.png)no-repeat;    float:left;    margin:0 auto;    margin-top: 2%; margin-bottom:2%;}
+.cont-area1{ width:100%;    background:url(../images/background-img2.png)no-repeat;    float:left;    margin:0 auto;    margin-top: 2%; padding-bottom: 13%; margin-bottom:2%;}
+.cont-area2{ width:100%;    background:url(../images/background-img3.png)no-repeat;    float:left;    margin:0 auto;    margin-top: 2%; padding-bottom:32%; margin-bottom:2%;}
+.cont-area3{ width:100%;    background:url(../images/background-img4.png)no-repeat;    float:left;    margin:0 auto;    margin-top: 2%; padding-bottom:27%; margin-bottom:2%;}
+.cont-area4{ width:100%;    background:url(../images/background-img5.png)no-repeat;    float:left;    margin:0 auto;    margin-top: 2%; padding-bottom:7%; margin-bottom:2%;}
+.head-title {font-size: 22px;   font-weight: bold;   color: #d94141;   text-transform: uppercase;    margin: 2% 0 0 2%; }
+.head-title span {    float: right;    margin-right: 3%; }
+.tabs {   float: left;    width: 100%; }
+.tab {  text-align: center;  float: left;    width: 50%; }
+.tabs-02{text-align:center; }
+.tab-main {text-align:center;}
+.btns {    width: 50%;    margin: 0 auto;        margin-top: 0px;    margin-top: 2%; }
+.main-btn {   float: left;    background: #ed3f3f;    color: #fff;    border-radius: 6px;    padding: 2% 16%;    margin-left: 2%;    margin-top: 2%;  text-transform:uppercase; font-size: 15px;}
+.main-btn a {text-decoration:none; color:#ffff; }
+.main-btn1 {   float: left;    background: #232323;    color: #fff;    border-radius: 6px;    padding:2% 16%;    margin-left: 2%;    margin-top: 2%; text-transform:uppercase; font-size: 15px;}
+.main-btn1 a {text-decoration:none; color:#ffff; }
+.clear-both{clear:both; }
+.main-cont { font-size: 14px;    float: left; margin: 1% 0 1% 2%;    width: 94%;    line-height: 22px; }
+.white-box {float: left;  border-radius: 8px;  background: #ffff; width: 94%;  margin-left: 3%;  margin-top: 2%;  box-shadow:0px 0px 5px 0px rgb(144, 144, 144); padding: 2% 0 2% 0;}
+.grey-title {    float: left;    margin-top: 2%;    margin-left: 2%;    font-weight: bold;    text-transform: uppercase;    font-size: 19px; }
+.red-bg {    float: left;    clear: both;    background: #ef2c2c;    width: 100%;    margin: 4% 0 1% 0; padding: 1% 0;}
+.red-hd {    float: left;    width: 30%;    color: #ffff; margin-left: 3%;}
+.red-mid {    float: left;    width: 30%;    color: #fff; }
+.red-right {    width: 30%;    float: left;    color: #ffff; }
+.bar-bttm {    float: left;    width: 100%;    clear: both;    margin-top: 10%; }
+.bar-title {    float: left;    margin-top: 3%;    margin-left: 1%;    font-weight: bold;    font-size: 19px; }
+.bar-area {    float: right;    margin-right: 2%;    margin-bottom: 2%; }
+.contnt-hd {    font-size: 15px;    font-weight: bold;    margin-top: 2%;    margin-left: 2%;}
+.white-box-01 {    float: left;    border-radius: 8px;    background: #ffff;    width: 46%;    margin-left:2%;    margin-top: 2%;    padding: 2% 0;    margin-right: 2%; box-shadow: 0px 0px 5px 0px rgb(207, 207, 207); padding-bottom: 5%;}
+.form-title {    float: left;    font-size: 17px;    color: #ef4a4a;    font-weight: bold;    margin-left: 2%;    margin-bottom: 2%; margin-top: 2%;}
+.form-f {    float: left;    border: 1px solid #dadada;    clear: both;    margin-left: 2%;    width:95%;    border-radius: 4px;   padding:2% 0; margin-bottom:3%;   }
+.form-f input{    float: left;    border:none;    clear: both;    margin-left: 2%;     border-radius: 4px; width: 90%;   }
+.form-f span {    float: right;    padding-right: 2%; }
+.conf-btn {    text-align: center;   background: #ef3939;    margin: 0 auto;    clear: both;    width: 50%;    border-radius: 3px;    padding: 2% 0;    color: #fff;  text-transform: uppercase; font-size: 15px; }
+.conf-btn a {text-decoration:none; color:#ffff; }
+.form-f select{    float: left;    border:none;    clear: both;    margin-left: 2%;     border-radius: 4px;    }
+.heart-title {    float: left;    font-size: 17px;    color: #ef4a4a;    font-weight: bold;    margin-left: 2%;    margin-bottom: 2%; margin-top: 2%;}
+.form-heart {    float: right;    margin-right: 3%; }
+.tab-form {    float: left;    width: 100%;    border-bottom: 1px solid #d7d7d7; }
+.tab-hd {  float: left;    width: 44%;    margin-left: 2%;    margin-top: 2%;    padding-bottom: 2%;    font-size: 14px;}
+.tab-bt {  text-align: center;    display: inline;    background: #e94f4f;    border-radius: 3px;    padding:2% 13%;    margin: 0 2%;    color: #ffff;    text-transform: uppercase; float: left;}
+.tab-bt a { text-decoration:none; color:#ffff; }
+.tab-drop { margin-left:2%; }
+.tab-drop select {    float: left;    text-decoration: none;    background: #f5f5f5;    padding: 2% 39% 2% 2%;    border: none;    border-radius: 3px;    text-align: left; }
+.tab-s{width: 60%;  margin: 0 auto; } 
+.grey-bg {    float: left;    clear: both;    background: #232323;    width: 100%;    margin: 4% 0 1% 0; padding: 1% 0;}
+.grey-left {    float: left;    width: 45%;    color: #ffff; margin-left: 3%;}
+.grey-right {    width: 45%;    float: left;    color: #ffff; }
+.grey-01 {    width: 23%;    float: left;    color: #ffff;text-align: center; }
+.line {    width: 60%;    margin: 0 auto;    border-bottom: 1px solid #232323;  margin-top:3%;  margin-bottom: 2% }
+.line-text {    width: 100%;    margin: 0 auto;    text-align: center;    font-size: 15px; }
+.option-01 {    float: left;    margin-left: 1%;    font-size: 15px; }
+.comment {    float: left;    clear: both;    margin-top: 2%;    margin-left: 2%; width: 70%;}
+.comment input {    float: left;    text-decoration: none;    border-radius: 6px;    border:1px solid #c7c7c7;;	padding:1%;    width:94%;    padding-bottom:7%;    background:#f8f8f8; }
+.comment-btn {    background: #ed3f3f;    float: left;    text-align: center;    width: 20%;    border-radius: 3px;    color: #fff;    padding: 1% 0;    margin-top:4%; }
+.money-tab {    width: 100%;    float: left; }
+.money-t {    border-radius: 6px;    float: left;    border: 1px solid #dfdcdc;    background: #f4f4f4;    box-shadow: 0px 0px 5px 0px rgb(207, 207, 207);    margin: 0 2%;
+    width: 29%;    min-height: 70px;} 
+a {   text-decoration: none;}
+.money-t span {     float: left;    margin-top: 6%;    margin-left: 7%;margin-right: 4%; }
+.money-t a {     font-size: 27px;    font-weight: bold;    text-decoration: none;    color: #d43434;    text-align: center;    width: 100%; }
+.tab-icn {    float: left;    margin: 5% 0 0 6%; }
+.tab-text {    color: #f03535;    float: left;    margin: 6% 0 0 9%;    font-size: 27px;    font-weight: bold; }
+.btn-color {    width: 100%;    float: left;    margin-top: 1%; }
+.c-btn1 {    float: left;    padding: 1% 3%;    background:#2b2a2a;    color: #ffff;   margin: 0% 0% 0 2%;    border-radius: 6px;    display: inline;    text-transform: uppercase;    font-size: 14px; }
+.c-btn2 {    float: left;    padding: 1% 3%;    background:#f45353;    color: #ffff;   margin: 0% 0% 0 2%;    border-radius: 6px;    display: inline;    text-transform: uppercase;    font-size: 14px; }
+.tab-prods {    width: 100%;    float: left; }
+.prodct-tab { float: left;  width: 30%;  margin: 1% 1%; background: #ffff; border-radius: 6px;  padding-bottom: 2%;  margin-top: 3%; box-shadow: 0px 0px 5px 0px rgb(131, 129, 129);}
+.prdct-img {    width: 100%;    float: left; }
+.prdct-img img {    width: 100%; }
+.prdct-cont {    width: 100%;    float: left; margin-left: 3%;}
+.prdct-hd { float: left;    font-size: 22px;    font-weight: bold;    color: #ee3939; margin-top: 2%; text-transform: uppercase;} 
+.prdct-text {    clear: both;    font-size: 15px;    margin: 1% 0;    float: left;    padding: 1% 0; line-height: 23px; }
+.add-cart {    float: left;    margin-left: 3%;    background: #e83c3c;    color: #ffff;    border-radius: 6px;    padding: 3% 4%;    font-size: 13px;    text-transform: uppercase; }
+.grey-b{    width:16%;    float: left;    color: #ffff;  text-align: center; font-size:13px; text-transform:uppercase; }
+.grey-bg2 {    float: left;    clear: both;    background: #232323;    width: 100%;    margin: 1% 0 1% 0;    padding: 1% 0; }
+.white-box2 {float: left;  border-radius: 8px;  background: #ffff; width: 94%;  margin-left: 3%;  margin-top: 2%;  box-shadow:0px 0px 5px 0px rgb(144, 144, 144); padding: 1% 0 2% 0;}
+.head-title1 {font-size: 22px;   font-weight: bold;   color: #d94141;   text-transform: uppercase;    margin: 2% 0 0 2%; }
+.form-f2 {    float: left;    border: 1px solid #dadada;    clear: both;    margin-left: 2%;    width:95%;    border-radius: 4px;   padding:2% 0;   }
+.form-f2 input{    float: left;    border:none;    clear: both;    margin-left: 2%;     border-radius: 4px; width: 90%;   }
+.prodct-h {    width: 100%;    float: left; }
+.p-head {    float: left;    margin-left: 3%;    font-size: 20px;    font-weight: bold;    margin-right: 2%; }
+.p-buttn {    float: left;    padding: 1% 2%;    background: #ec4747;    border-radius: 6px;    color: #ffff;    font-size: 14px;    text-transform: uppercase; }

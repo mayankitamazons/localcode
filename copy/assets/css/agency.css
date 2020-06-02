@@ -1,0 +1,201 @@
+#page {
+  text-align: center;
+  font-size: 16px;
+  margin: 150px auto;
+}
+#page h1 {
+  margin-bottom: 4rem;
+  font-family: 'Lemonada', cursive;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #fff;
+  font-size: 2rem;
+}
+
+/*** CUSTOM FILE INPUT STYE ***/
+.wrap-custom-file-logo {
+  position: relative;
+  display: inline-block;
+  width: 180px;
+  height: 180px;
+  margin: 0 0.5rem 1rem;
+  text-align: center;
+  left: 200%;
+}
+.wrap-custom-file-logo input[type="file"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 2px;
+  overflow: hidden;
+  opacity: 0;
+  border-radius: 50px;
+}
+.wrap-custom-file-logo label {
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  overflow: hidden;
+  padding: 0 0.5rem;
+  cursor: pointer;
+  background-color: ghostwhite;
+  border-radius: 50px;
+  -webkit-transition: -webkit-transform 0.4s;
+  transition: -webkit-transform 0.4s;
+  transition: transform 0.4s;
+  transition: transform 0.4s, -webkit-transform 0.4s;
+  border-style: dotted;
+  border-width: 1px;
+  background-size: 100%;
+}
+.wrap-custom-file-logo label span {
+  display: block;
+  margin-top: 2rem;
+  font-size: 1.4rem;
+  color: #777;
+  -webkit-transition: color 0.4s;
+  transition: color 0.4s;
+}
+.wrap-custom-file-logo label .fa {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  -webkit-transform: translatex(-50%);
+  transform: translatex(-50%);
+  font-size: 1.5rem;
+  color: lightcoral;
+  -webkit-transition: color 0.4s;
+  transition: color 0.4s;
+}
+.wrap-custom-file-logo label:hover {
+  -webkit-transform: translateY(-0.5rem);
+  transform: translateY(-0.5rem);
+}
+.wrap-custom-file-logo label:hover span, .wrap-custom-file-logo label:hover .fa {
+  color: #333;
+}
+.wrap-custom-file-logo label.file-ok {
+  background-size: cover;
+  background-position: center;
+}
+.wrap-custom-file-logo label.file-ok span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.3rem;
+  font-size: 1.1rem;
+  color: #000;
+}
+.wrap-custom-file-logo label.file-ok .fa {
+  display: none;
+}
+.wrap-custom-file-banner {
+  position: relative;
+  display: inline-block;
+  width: 468px;
+  height: 60px;
+  margin: 20px 0.5rem 1rem;
+  text-align: center;
+  left: 52%;
+}
+.wrap-custom-file-banner input[type="file"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 2px;
+  overflow: hidden;
+  opacity: 0;
+  border-radius: 50px;
+}
+.wrap-custom-file-banner label {
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  overflow: hidden;
+  padding: 0 0.5rem;
+  cursor: pointer;
+  background-color: ghostwhite;
+  border-radius: 50px;
+  -webkit-transition: -webkit-transform 0.4s;
+  transition: -webkit-transform 0.4s;
+  transition: transform 0.4s;
+  transition: transform 0.4s, -webkit-transform 0.4s;
+  border-style: dotted;
+  border-width: 1px;
+  background-size: 100%;
+}
+.wrap-custom-file-banner label span {
+  display: block;
+  margin-top: 0rem;
+  font-size: 1rem;
+  color: #777;
+  -webkit-transition: color 0.4s;
+  transition: color 0.4s;
+}
+.wrap-custom-file-banner label .fa {
+  position: absolute;
+  bottom: 0rem;
+  left: 50%;
+  -webkit-transform: translatex(-50%);
+  transform: translatex(-50%);
+  font-size: 1.5rem;
+  color: lightcoral;
+  -webkit-transition: color 0.4s;
+  transition: color 0.4s;
+}
+.wrap-custom-file-banner label:hover {
+  -webkit-transform: translateY(-0.5rem);
+  transform: translateY(-0.5rem);
+}
+.wrap-custom-file-banner label:hover span, .wrap-custom-file-banner label:hover .fa {
+  color: #333;
+}
+.wrap-custom-file-banner label.file-ok {
+  background-size: cover;
+  background-position: center;
+}
+.wrap-custom-file-banner label.file-ok span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.3rem;
+  font-size: 1.1rem;
+  color: #000;
+}
+.wrap-custom-file-banner label.file-ok .fa {
+  display: none;
+}
+#table_agency th, td{
+  text-align: center;
+}
+#table_agency tr img{
+  width: 50px;
+  height: 50px;
+}
+#form_viewAgencyProfile .profile_agency_logo{
+  width: 180px;
+  height: 180px;
+}
+#form_viewAgencyProfile .profile_agency_banner{
+  width: 468px;
+  height: 60px;
+}
+
+
+
+
+.modal{
+  z-index: 9999;
+}

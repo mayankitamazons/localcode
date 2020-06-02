@@ -1,0 +1,114 @@
+/*** CUSTOM FILE INPUT STYE ***/
+.blog-image {
+  position: relative;
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  margin: 0 0.5rem 1rem;
+  text-align: center;
+  left: 10%;
+}
+.blog-image input[type="file"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 2px;
+  overflow: hidden;
+  opacity: 0;
+  border-radius: 50px;
+}
+.blog-image label {
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  overflow: hidden;
+  padding: 0 0.5rem;
+  cursor: pointer;
+  background-color: ghostwhite;
+  border-radius: 50px;
+  -webkit-transition: -webkit-transform 0.4s;
+  transition: -webkit-transform 0.4s;
+  transition: transform 0.4s;
+  transition: transform 0.4s, -webkit-transform 0.4s;
+  border-style: dotted;
+  border-width: 1px;
+  background-size: 100%;
+}
+.blog-image .blog_image_preview{
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  cursor: pointer;
+  background-color: ghostwhite;
+  border-radius: 50px;
+  -webkit-transition: -webkit-transform 0.4s;
+  transition: -webkit-transform 0.4s;
+  transition: transform 0.4s;
+  transition: transform 0.4s, -webkit-transform 0.4s;
+  border-style: dotted;
+  border-width: 1px;
+}
+.blog-image .blog_image_preview:hover {
+  -webkit-transform: translateY(-0.5rem);
+  transform: translateY(-0.5rem);
+}
+.blog-image label span {
+  display: block;
+  margin-top: 2rem;
+  font-size: 1.4rem;
+  color: #777;
+  -webkit-transition: color 0.4s;
+  transition: color 0.4s;
+}
+.blog-image label .fa {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  -webkit-transform: translatex(-50%);
+  transform: translatex(-50%);
+  font-size: 1.5rem;
+  color: lightcoral;
+  -webkit-transition: color 0.4s;
+  transition: color 0.4s;
+}
+.blog-image label:hover {
+  -webkit-transform: translateY(-0.5rem);
+  transform: translateY(-0.5rem);
+}
+.blog-image label:hover span, .blog-image label:hover .fa {
+  color: #333;
+}
+.blog-image label.file-ok {
+  background-size: cover;
+  background-position: center;
+}
+.blog-image label.file-ok span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.3rem;
+  font-size: 1.1rem;
+  color: #000;
+}
+.blog-image label.file-ok .fa {
+  display: none;
+}
+#table_blog th, td{
+  text-align: center;
+}
+#table_blog tr img{
+  width: 50px;
+  height: 50px;
+}

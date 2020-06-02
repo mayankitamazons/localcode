@@ -1,0 +1,1 @@
+[07-Feb-2019 08:08:06 Europe/Berlin] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/koofamilies/public_html/demo1/facebook-login/fbconfig.php on line 62

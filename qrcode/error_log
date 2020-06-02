@@ -1,0 +1,305 @@
+[09-Jul-2018 04:46:26 UTC] PHP Fatal error:  Call to undefined function redirect() in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 33
+[09-Jul-2018 04:46:37 UTC] PHP Fatal error:  Call to undefined function redirect() in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 33
+[09-Jul-2018 04:52:02 UTC] PHP Fatal error:  Call to undefined function redirect() in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 33
+[09-Jul-2018 04:52:06 UTC] PHP Fatal error:  Call to undefined function redirect() in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 33
+[09-Jul-2018 04:52:25 UTC] PHP Fatal error:  Call to undefined function redirect() in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 36
+[09-Jul-2018 04:52:28 UTC] PHP Fatal error:  Call to undefined function redirect() in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 36
+[09-Jul-2018 04:52:30 UTC] PHP Fatal error:  Call to undefined function redirect() in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 36
+[09-Jul-2018 04:52:33 UTC] PHP Fatal error:  Call to undefined function redirect() in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 36
+[09-Jul-2018 04:54:14 UTC] PHP Fatal error:  Call to undefined function redirect() in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 30
+[09-Jul-2018 04:54:17 UTC] PHP Fatal error:  Call to undefined function redirect() in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 30
+[09-Jul-2018 04:54:19 UTC] PHP Fatal error:  Call to undefined function redirect() in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 30
+[09-Jul-2018 05:04:09 UTC] PHP Fatal error:  Call to undefined function redirect() in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 12
+[09-Jul-2018 05:04:12 UTC] PHP Fatal error:  Call to undefined function redirect() in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 12
+[09-Jul-2018 05:08:41 UTC] PHP Fatal error:  Call to undefined function redirect() in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 12
+[09-Jul-2018 05:08:44 UTC] PHP Fatal error:  Call to undefined function redirect() in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 12
+[09-Jul-2018 05:09:21 UTC] PHP Fatal error:  Call to undefined function redirect() in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 12
+[09-Jul-2018 05:09:24 UTC] PHP Fatal error:  Call to undefined function redirect() in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 12
+[09-Jul-2018 05:14:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kooexchange/public_html/demo/qrcode/qrcode.php:35) in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 36
+[09-Jul-2018 05:15:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kooexchange/public_html/demo/qrcode/qrcode.php:35) in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 36
+[09-Jul-2018 05:15:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kooexchange/public_html/demo/qrcode/qrcode.php:35) in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 36
+[09-Jul-2018 05:21:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kooexchange/public_html/demo/qrcode/qrcode.php:35) in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 36
+[09-Jul-2018 05:21:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kooexchange/public_html/demo/qrcode/qrcode.php:35) in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 36
+[09-Jul-2018 05:21:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kooexchange/public_html/demo/qrcode/qrcode.php:35) in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 36
+[09-Jul-2018 05:25:24 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 72 bytes) in /home/kooexchange/public_html/demo/qrcode/vendor/khanamiryan/qrcode-detector-decoder/lib/GDLuminanceSource.php on line 68
+[09-Jul-2018 05:25:27 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 72 bytes) in /home/kooexchange/public_html/demo/qrcode/vendor/khanamiryan/qrcode-detector-decoder/lib/GDLuminanceSource.php on line 68
+[09-Jul-2018 05:25:31 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 72 bytes) in /home/kooexchange/public_html/demo/qrcode/vendor/khanamiryan/qrcode-detector-decoder/lib/GDLuminanceSource.php on line 68
+[09-Jul-2018 05:30:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kooexchange/public_html/demo/qrcode/qrcode.php:34) in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 35
+[09-Jul-2018 05:30:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kooexchange/public_html/demo/qrcode/qrcode.php:34) in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 35
+[09-Jul-2018 05:30:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kooexchange/public_html/demo/qrcode/qrcode.php:34) in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 35
+[09-Jul-2018 06:36:19 UTC] PHP Warning:  Missing argument 1 for Endroid\QrCode\QrCode::setValidateResult(), called in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 31 and defined in /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php on line 543
+[09-Jul-2018 06:36:19 UTC] PHP Catchable fatal error:  Object of class Endroid\QrCode\QrCode could not be converted to string in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 31
+[09-Jul-2018 06:36:24 UTC] PHP Warning:  Missing argument 1 for Endroid\QrCode\QrCode::setValidateResult(), called in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 31 and defined in /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php on line 543
+[09-Jul-2018 06:36:24 UTC] PHP Catchable fatal error:  Object of class Endroid\QrCode\QrCode could not be converted to string in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 31
+[09-Jul-2018 06:54:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kooexchange/public_html/demo/qrcode/qrcode.php:38) in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 39
+[09-Jul-2018 06:54:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kooexchange/public_html/demo/qrcode/qrcode.php:38) in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 39
+[09-Jul-2018 07:07:33 UTC] PHP Fatal error:  Call to undefined method Endroid\QrCode\QrCode::url() in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 35
+[09-Jul-2018 07:07:36 UTC] PHP Fatal error:  Call to undefined method Endroid\QrCode\QrCode::url() in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 35
+[09-Jul-2018 07:07:50 UTC] PHP Fatal error:  Call to undefined method Endroid\QrCode\QrCode::url() in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 35
+[09-Jul-2018 07:08:57 UTC] PHP Fatal error:  Call to undefined method Endroid\QrCode\QrCode::url() in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 35
+[09-Jul-2018 07:24:13 UTC] PHP Fatal error:  Call to undefined method Endroid\QrCode\QrCode::url() in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 33
+[09-Jul-2018 07:24:16 UTC] PHP Fatal error:  Call to undefined method Endroid\QrCode\QrCode::url() in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 33
+[09-Jul-2018 07:55:06 UTC] PHP Parse error:  syntax error, unexpected '$qrCode' (T_VARIABLE) in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 23
+[09-Jul-2018 07:59:55 UTC] PHP Fatal error:  Call to a member function setSize() on null in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 20
+[09-Jul-2018 07:59:58 UTC] PHP Fatal error:  Call to a member function setSize() on null in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 20
+[09-Jul-2018 08:00:01 UTC] PHP Fatal error:  Call to a member function setSize() on null in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 20
+[09-Jul-2018 08:00:04 UTC] PHP Fatal error:  Call to a member function setSize() on null in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 20
+[09-Jul-2018 08:00:19 UTC] PHP Fatal error:  Call to a member function setSize() on null in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 20
+[09-Jul-2018 08:00:22 UTC] PHP Fatal error:  Call to a member function setSize() on null in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 20
+[09-Jul-2018 09:06:01 UTC] PHP Fatal error:  Call to a member function setSize() on null in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 20
+[09-Jul-2018 09:06:04 UTC] PHP Fatal error:  Call to a member function setSize() on null in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 20
+[09-Jul-2018 09:09:56 UTC] PHP Fatal error:  Class 'QrCodeResponse' not found in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 36
+[09-Jul-2018 09:09:59 UTC] PHP Fatal error:  Class 'QrCodeResponse' not found in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 36
+[09-Jul-2018 09:10:01 UTC] PHP Fatal error:  Class 'QrCodeResponse' not found in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 36
+[09-Jul-2018 09:10:03 UTC] PHP Fatal error:  Class 'QrCodeResponse' not found in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 36
+[09-Jul-2018 09:10:05 UTC] PHP Fatal error:  Class 'QrCodeResponse' not found in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 36
+[09-Jul-2018 09:13:01 UTC] PHP Fatal error:  Class 'QrCodeResponse' not found in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 36
+[09-Jul-2018 09:57:20 UTC] PHP Fatal error:  Uncaught exception 'Endroid\QrCode\Exception\InvalidPathException' with message 'Invalid label font path: ' in /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php:392
+Stack trace:
+#0 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php(338): Endroid\QrCode\QrCode->setLabelFontPath('/home/kooexchan...')
+#1 /home/kooexchange/public_html/demo/qrcode/qrcode.php(20): Endroid\QrCode\QrCode->setLabel('Scan the code', 16, '/home/kooexchan...', 'center')
+#2 {main}
+  thrown in /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php on line 392
+[09-Jul-2018 09:57:20 UTC] PHP Fatal error:  Uncaught exception 'Endroid\QrCode\Exception\InvalidPathException' with message 'Invalid label font path: ' in /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php:392
+Stack trace:
+#0 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php(338): Endroid\QrCode\QrCode->setLabelFontPath('/home/kooexchan...')
+#1 /home/kooexchange/public_html/demo/qrcode/qrcode.php(20): Endroid\QrCode\QrCode->setLabel('Scan the code', 16, '/home/kooexchan...', 'center')
+#2 {main}
+  thrown in /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php on line 392
+[09-Jul-2018 09:57:46 UTC] PHP Fatal error:  Uncaught exception 'Endroid\QrCode\Exception\InvalidPathException' with message 'Invalid label font path: ' in /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php:392
+Stack trace:
+#0 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php(338): Endroid\QrCode\QrCode->setLabelFontPath('/home/kooexchan...')
+#1 /home/kooexchange/public_html/demo/qrcode/qrcode.php(20): Endroid\QrCode\QrCode->setLabel('Scan the code', 16, '/home/kooexchan...', 'center')
+#2 {main}
+  thrown in /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php on line 392
+[09-Jul-2018 09:57:57 UTC] PHP Fatal error:  Uncaught exception 'Endroid\QrCode\Exception\InvalidPathException' with message 'Invalid label font path: ' in /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php:392
+Stack trace:
+#0 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php(338): Endroid\QrCode\QrCode->setLabelFontPath('/home/kooexchan...')
+#1 /home/kooexchange/public_html/demo/qrcode/qrcode.php(20): Endroid\QrCode\QrCode->setLabel('Scan the code', 16, '/home/kooexchan...', 'center')
+#2 {main}
+  thrown in /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php on line 392
+[09-Jul-2018 09:59:03 UTC] PHP Fatal error:  Uncaught exception 'Endroid\QrCode\Exception\InvalidPathException' with message 'Invalid label font path: ' in /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php:392
+Stack trace:
+#0 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php(338): Endroid\QrCode\QrCode->setLabelFontPath('/home/kooexchan...')
+#1 /home/kooexchange/public_html/demo/qrcode/qrcode.php(20): Endroid\QrCode\QrCode->setLabel('Scan the code', 16, '/home/kooexchan...', 'center')
+#2 {main}
+  thrown in /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php on line 392
+[09-Jul-2018 09:59:06 UTC] PHP Fatal error:  Uncaught exception 'Endroid\QrCode\Exception\InvalidPathException' with message 'Invalid label font path: ' in /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php:392
+Stack trace:
+#0 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php(338): Endroid\QrCode\QrCode->setLabelFontPath('/home/kooexchan...')
+#1 /home/kooexchange/public_html/demo/qrcode/qrcode.php(20): Endroid\QrCode\QrCode->setLabel('Scan the code', 16, '/home/kooexchan...', 'center')
+#2 {main}
+  thrown in /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php on line 392
+[09-Jul-2018 09:59:38 UTC] PHP Fatal error:  Uncaught exception 'Endroid\QrCode\Exception\InvalidPathException' with message 'Invalid label font path: ' in /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php:392
+Stack trace:
+#0 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php(338): Endroid\QrCode\QrCode->setLabelFontPath('/home/kooexchan...')
+#1 /home/kooexchange/public_html/demo/qrcode/qrcode.php(20): Endroid\QrCode\QrCode->setLabel('Scan the code', 16, '/home/kooexchan...', 'center')
+#2 {main}
+  thrown in /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php on line 392
+[09-Jul-2018 10:06:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kooexchange/public_html/demo/qrcode/qrcode.php:34) in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 35
+[09-Jul-2018 10:06:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kooexchange/public_html/demo/qrcode/qrcode.php:34) in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 35
+[09-Jul-2018 10:11:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kooexchange/public_html/demo/qrcode/qrcode.php:34) in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 35
+[09-Jul-2018 10:11:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kooexchange/public_html/demo/qrcode/qrcode.php:34) in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 35
+[09-Jul-2018 10:15:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kooexchange/public_html/demo/qrcode/qrcode.php:34) in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 35
+[09-Jul-2018 10:16:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kooexchange/public_html/demo/qrcode/qrcode.php:34) in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 35
+[09-Jul-2018 10:16:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kooexchange/public_html/demo/qrcode/qrcode.php:34) in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 35
+[09-Jul-2018 10:16:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kooexchange/public_html/demo/qrcode/qrcode.php:34) in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 35
+[09-Jul-2018 10:19:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kooexchange/public_html/demo/qrcode/qrcode.php:34) in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 35
+[09-Jul-2018 10:19:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kooexchange/public_html/demo/qrcode/qrcode.php:34) in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 35
+[09-Jul-2018 10:20:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kooexchange/public_html/demo/qrcode/qrcode.php:34) in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 35
+[09-Jul-2018 10:20:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kooexchange/public_html/demo/qrcode/qrcode.php:34) in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 35
+[09-Jul-2018 10:21:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kooexchange/public_html/demo/qrcode/qrcode.php:34) in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 35
+[09-Jul-2018 10:22:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kooexchange/public_html/demo/qrcode/qrcode.php:34) in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 35
+[09-Jul-2018 10:54:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kooexchange/public_html/demo/qrcode/qrcode.php:12) in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 35
+[09-Jul-2018 10:54:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kooexchange/public_html/demo/qrcode/qrcode.php:12) in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 35
+[09-Jul-2018 11:06:19 UTC] PHP Deprecated:  Function split() is deprecated in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 14
+[09-Jul-2018 11:06:19 UTC] PHP Warning:  addslashes() expects parameter 1 to be string, array given in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 15
+[09-Jul-2018 11:06:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kooexchange/public_html/demo/qrcode/qrcode.php:14) in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 38
+[09-Jul-2018 11:06:19 UTC] PHP Fatal error:  Uncaught exception 'BaconQrCode\Exception\InvalidArgumentException' with message 'Found empty contents' in /home/kooexchange/public_html/demo/qrcode/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php:79
+Stack trace:
+#0 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/Writer/PngWriter.php(35): BaconQrCode\Writer->writeString('', 'UTF-8', 2)
+#1 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php(563): Endroid\QrCode\Writer\PngWriter->writeString(Object(Endroid\QrCode\QrCode))
+#2 /home/kooexchange/public_html/demo/qrcode/qrcode.php(39): Endroid\QrCode\QrCode->writeString()
+#3 {main}
+  thrown in /home/kooexchange/public_html/demo/qrcode/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php on line 79
+[10-Jul-2018 06:49:06 UTC] PHP Fatal error:  Class 'QrCode' not found in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 13
+[10-Jul-2018 06:49:10 UTC] PHP Fatal error:  Class 'QrCode' not found in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 13
+[10-Jul-2018 06:49:12 UTC] PHP Fatal error:  Class 'QrCode' not found in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 13
+[10-Jul-2018 06:50:42 UTC] PHP Fatal error:  Call to undefined method Endroid\QrCode\QrCode::setPadding() in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 16
+[10-Jul-2018 06:50:55 UTC] PHP Fatal error:  Call to undefined method Endroid\QrCode\QrCode::setPadding() in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 16
+[10-Jul-2018 06:54:07 UTC] PHP Fatal error:  Uncaught exception 'BaconQrCode\Exception\InvalidArgumentException' with message 'Found empty contents' in /home/kooexchange/public_html/demo/qrcode/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php:79
+Stack trace:
+#0 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/Writer/PngWriter.php(35): BaconQrCode\Writer->writeString(NULL, 'UTF-8', 2)
+#1 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php(563): Endroid\QrCode\Writer\PngWriter->writeString(Object(Endroid\QrCode\QrCode))
+#2 /home/kooexchange/public_html/demo/qrcode/qrcode.php(36): Endroid\QrCode\QrCode->writeString()
+#3 {main}
+  thrown in /home/kooexchange/public_html/demo/qrcode/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php on line 79
+[10-Jul-2018 06:54:46 UTC] PHP Fatal error:  Uncaught exception 'BaconQrCode\Exception\InvalidArgumentException' with message 'Found empty contents' in /home/kooexchange/public_html/demo/qrcode/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php:79
+Stack trace:
+#0 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/Writer/PngWriter.php(35): BaconQrCode\Writer->writeString(NULL, 'UTF-8', 2)
+#1 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php(563): Endroid\QrCode\Writer\PngWriter->writeString(Object(Endroid\QrCode\QrCode))
+#2 /home/kooexchange/public_html/demo/qrcode/qrcode.php(36): Endroid\QrCode\QrCode->writeString()
+#3 {main}
+  thrown in /home/kooexchange/public_html/demo/qrcode/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php on line 79
+[10-Jul-2018 06:55:08 UTC] PHP Fatal error:  Uncaught exception 'BaconQrCode\Exception\InvalidArgumentException' with message 'Found empty contents' in /home/kooexchange/public_html/demo/qrcode/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php:79
+Stack trace:
+#0 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/Writer/PngWriter.php(35): BaconQrCode\Writer->writeString(NULL, 'UTF-8', 2)
+#1 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php(563): Endroid\QrCode\Writer\PngWriter->writeString(Object(Endroid\QrCode\QrCode))
+#2 /home/kooexchange/public_html/demo/qrcode/qrcode.php(33): Endroid\QrCode\QrCode->writeString()
+#3 {main}
+  thrown in /home/kooexchange/public_html/demo/qrcode/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php on line 79
+[10-Jul-2018 06:55:12 UTC] PHP Fatal error:  Uncaught exception 'BaconQrCode\Exception\InvalidArgumentException' with message 'Found empty contents' in /home/kooexchange/public_html/demo/qrcode/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php:79
+Stack trace:
+#0 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/Writer/PngWriter.php(35): BaconQrCode\Writer->writeString(NULL, 'UTF-8', 2)
+#1 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php(563): Endroid\QrCode\Writer\PngWriter->writeString(Object(Endroid\QrCode\QrCode))
+#2 /home/kooexchange/public_html/demo/qrcode/qrcode.php(33): Endroid\QrCode\QrCode->writeString()
+#3 {main}
+  thrown in /home/kooexchange/public_html/demo/qrcode/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php on line 79
+[10-Jul-2018 06:56:33 UTC] PHP Fatal error:  Uncaught exception 'BaconQrCode\Exception\InvalidArgumentException' with message 'Found empty contents' in /home/kooexchange/public_html/demo/qrcode/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php:79
+Stack trace:
+#0 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/Writer/PngWriter.php(35): BaconQrCode\Writer->writeString(NULL, 'UTF-8', 2)
+#1 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php(563): Endroid\QrCode\Writer\PngWriter->writeString(Object(Endroid\QrCode\QrCode))
+#2 /home/kooexchange/public_html/demo/qrcode/qrcode.php(30): Endroid\QrCode\QrCode->writeString()
+#3 {main}
+  thrown in /home/kooexchange/public_html/demo/qrcode/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php on line 79
+[10-Jul-2018 06:56:38 UTC] PHP Fatal error:  Uncaught exception 'BaconQrCode\Exception\InvalidArgumentException' with message 'Found empty contents' in /home/kooexchange/public_html/demo/qrcode/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php:79
+Stack trace:
+#0 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/Writer/PngWriter.php(35): BaconQrCode\Writer->writeString(NULL, 'UTF-8', 2)
+#1 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php(563): Endroid\QrCode\Writer\PngWriter->writeString(Object(Endroid\QrCode\QrCode))
+#2 /home/kooexchange/public_html/demo/qrcode/qrcode.php(30): Endroid\QrCode\QrCode->writeString()
+#3 {main}
+  thrown in /home/kooexchange/public_html/demo/qrcode/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php on line 79
+[10-Jul-2018 07:10:50 UTC] PHP Fatal error:  Call to a member function setMargin() on null in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 23
+[10-Jul-2018 07:18:10 UTC] PHP Fatal error:  Uncaught exception 'BaconQrCode\Exception\InvalidArgumentException' with message 'Found empty contents' in /home/kooexchange/public_html/demo/qrcode/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php:79
+Stack trace:
+#0 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/Writer/PngWriter.php(35): BaconQrCode\Writer->writeString(NULL, 'UTF-8', 2)
+#1 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php(563): Endroid\QrCode\Writer\PngWriter->writeString(Object(Endroid\QrCode\QrCode))
+#2 /home/kooexchange/public_html/demo/qrcode/qrcode.php(35): Endroid\QrCode\QrCode->writeString()
+#3 {main}
+  thrown in /home/kooexchange/public_html/demo/qrcode/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php on line 79
+[10-Jul-2018 07:18:13 UTC] PHP Fatal error:  Uncaught exception 'BaconQrCode\Exception\InvalidArgumentException' with message 'Found empty contents' in /home/kooexchange/public_html/demo/qrcode/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php:79
+Stack trace:
+#0 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/Writer/PngWriter.php(35): BaconQrCode\Writer->writeString(NULL, 'UTF-8', 2)
+#1 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php(563): Endroid\QrCode\Writer\PngWriter->writeString(Object(Endroid\QrCode\QrCode))
+#2 /home/kooexchange/public_html/demo/qrcode/qrcode.php(35): Endroid\QrCode\QrCode->writeString()
+#3 {main}
+  thrown in /home/kooexchange/public_html/demo/qrcode/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php on line 79
+[10-Jul-2018 07:18:16 UTC] PHP Fatal error:  Uncaught exception 'BaconQrCode\Exception\InvalidArgumentException' with message 'Found empty contents' in /home/kooexchange/public_html/demo/qrcode/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php:79
+Stack trace:
+#0 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/Writer/PngWriter.php(35): BaconQrCode\Writer->writeString(NULL, 'UTF-8', 2)
+#1 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php(563): Endroid\QrCode\Writer\PngWriter->writeString(Object(Endroid\QrCode\QrCode))
+#2 /home/kooexchange/public_html/demo/qrcode/qrcode.php(35): Endroid\QrCode\QrCode->writeString()
+#3 {main}
+  thrown in /home/kooexchange/public_html/demo/qrcode/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php on line 79
+[10-Jul-2018 09:53:23 UTC] PHP Fatal error:  Uncaught exception 'Endroid\QrCode\Exception\InvalidWriterException' with message 'Invalid writer "pngassa"' in /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/WriterRegistry.php:86
+Stack trace:
+#0 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/WriterRegistry.php(51): Endroid\QrCode\WriterRegistry->assertValidWriter('pngassa')
+#1 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php(499): Endroid\QrCode\WriterRegistry->getWriter('pngassa')
+#2 /home/kooexchange/public_html/demo/qrcode/qrcode.php(24): Endroid\QrCode\QrCode->setWriterByName('pngassa')
+#3 {main}
+  thrown in /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/WriterRegistry.php on line 86
+[10-Jul-2018 09:53:27 UTC] PHP Fatal error:  Uncaught exception 'Endroid\QrCode\Exception\InvalidWriterException' with message 'Invalid writer "pngassa"' in /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/WriterRegistry.php:86
+Stack trace:
+#0 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/WriterRegistry.php(51): Endroid\QrCode\WriterRegistry->assertValidWriter('pngassa')
+#1 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php(499): Endroid\QrCode\WriterRegistry->getWriter('pngassa')
+#2 /home/kooexchange/public_html/demo/qrcode/qrcode.php(24): Endroid\QrCode\QrCode->setWriterByName('pngassa')
+#3 {main}
+  thrown in /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/WriterRegistry.php on line 86
+[10-Jul-2018 09:53:35 UTC] PHP Fatal error:  Uncaught exception 'Endroid\QrCode\Exception\InvalidWriterException' with message 'Invalid writer "pngassa"' in /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/WriterRegistry.php:86
+Stack trace:
+#0 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/WriterRegistry.php(51): Endroid\QrCode\WriterRegistry->assertValidWriter('pngassa')
+#1 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php(499): Endroid\QrCode\WriterRegistry->getWriter('pngassa')
+#2 /home/kooexchange/public_html/demo/qrcode/qrcode.php(24): Endroid\QrCode\QrCode->setWriterByName('pngassa')
+#3 {main}
+  thrown in /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/WriterRegistry.php on line 86
+[10-Jul-2018 11:21:54 UTC] PHP Fatal error:  Uncaught exception 'Endroid\QrCode\Exception\InvalidPathException' with message 'Invalid label font path: ' in /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php:392
+Stack trace:
+#0 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php(338): Endroid\QrCode\QrCode->setLabelFontPath('/home/kooexchan...')
+#1 /home/kooexchange/public_html/demo/qrcode/qrcode.php(20): Endroid\QrCode\QrCode->setLabel('Scan the code', 16, '/home/kooexchan...', 'center')
+#2 {main}
+  thrown in /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php on line 392
+[10-Jul-2018 11:22:43 UTC] PHP Fatal error:  Uncaught exception 'Endroid\QrCode\Exception\InvalidPathException' with message 'Invalid label font path: ' in /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php:392
+Stack trace:
+#0 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php(338): Endroid\QrCode\QrCode->setLabelFontPath('/home/kooexchan...')
+#1 /home/kooexchange/public_html/demo/qrcode/qrcode.php(20): Endroid\QrCode\QrCode->setLabel('Scan the code', 16, '/home/kooexchan...', 'center')
+#2 {main}
+  thrown in /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php on line 392
+[10-Jul-2018 11:24:26 UTC] PHP Fatal error:  Uncaught exception 'Endroid\QrCode\Exception\InvalidPathException' with message 'Invalid logo path: ' in /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php:284
+Stack trace:
+#0 /home/kooexchange/public_html/demo/qrcode/qrcode.php(21): Endroid\QrCode\QrCode->setLogoPath('/home/kooexchan...')
+#1 {main}
+  thrown in /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php on line 284
+[10-Jul-2018 11:25:04 UTC] PHP Fatal error:  Call to undefined method Endroid\QrCode\QrCode::setRoundBlockSize() in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 23
+[10-Jul-2018 11:25:22 UTC] PHP Fatal error:  Call to undefined method Endroid\QrCode\QrCode::setRoundBlockSize() in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 22
+[18-Jul-2018 11:13:58 UTC] PHP Fatal error:  Uncaught exception 'BaconQrCode\Exception\InvalidArgumentException' with message 'Found empty contents' in /home/kooexchange/public_html/demo/qrcode/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php:79
+Stack trace:
+#0 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/Writer/PngWriter.php(35): BaconQrCode\Writer->writeString('', 'UTF-8', 2)
+#1 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php(563): Endroid\QrCode\Writer\PngWriter->writeString(Object(Endroid\QrCode\QrCode))
+#2 /home/kooexchange/public_html/demo/qrcode/qrcode.php(39): Endroid\QrCode\QrCode->writeString()
+#3 {main}
+  thrown in /home/kooexchange/public_html/demo/qrcode/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php on line 79
+[18-Jul-2018 11:14:00 UTC] PHP Fatal error:  Uncaught exception 'BaconQrCode\Exception\InvalidArgumentException' with message 'Found empty contents' in /home/kooexchange/public_html/demo/qrcode/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php:79
+Stack trace:
+#0 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/Writer/PngWriter.php(35): BaconQrCode\Writer->writeString('', 'UTF-8', 2)
+#1 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php(563): Endroid\QrCode\Writer\PngWriter->writeString(Object(Endroid\QrCode\QrCode))
+#2 /home/kooexchange/public_html/demo/qrcode/qrcode.php(39): Endroid\QrCode\QrCode->writeString()
+#3 {main}
+  thrown in /home/kooexchange/public_html/demo/qrcode/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php on line 79
+[18-Jul-2018 11:14:02 UTC] PHP Fatal error:  Uncaught exception 'BaconQrCode\Exception\InvalidArgumentException' with message 'Found empty contents' in /home/kooexchange/public_html/demo/qrcode/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php:79
+Stack trace:
+#0 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/Writer/PngWriter.php(35): BaconQrCode\Writer->writeString('', 'UTF-8', 2)
+#1 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php(563): Endroid\QrCode\Writer\PngWriter->writeString(Object(Endroid\QrCode\QrCode))
+#2 /home/kooexchange/public_html/demo/qrcode/qrcode.php(39): Endroid\QrCode\QrCode->writeString()
+#3 {main}
+  thrown in /home/kooexchange/public_html/demo/qrcode/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php on line 79
+[18-Jul-2018 11:14:02 UTC] PHP Fatal error:  Uncaught exception 'BaconQrCode\Exception\InvalidArgumentException' with message 'Found empty contents' in /home/kooexchange/public_html/demo/qrcode/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php:79
+Stack trace:
+#0 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/Writer/PngWriter.php(35): BaconQrCode\Writer->writeString('', 'UTF-8', 2)
+#1 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php(563): Endroid\QrCode\Writer\PngWriter->writeString(Object(Endroid\QrCode\QrCode))
+#2 /home/kooexchange/public_html/demo/qrcode/qrcode.php(39): Endroid\QrCode\QrCode->writeString()
+#3 {main}
+  thrown in /home/kooexchange/public_html/demo/qrcode/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php on line 79
+[18-Jul-2018 11:14:35 UTC] PHP Fatal error:  Uncaught exception 'BaconQrCode\Exception\InvalidArgumentException' with message 'Found empty contents' in /home/kooexchange/public_html/demo/qrcode/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php:79
+Stack trace:
+#0 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/Writer/PngWriter.php(35): BaconQrCode\Writer->writeString('', 'UTF-8', 2)
+#1 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php(563): Endroid\QrCode\Writer\PngWriter->writeString(Object(Endroid\QrCode\QrCode))
+#2 /home/kooexchange/public_html/demo/qrcode/qrcode.php(39): Endroid\QrCode\QrCode->writeString()
+#3 {main}
+  thrown in /home/kooexchange/public_html/demo/qrcode/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php on line 79
+[18-Jul-2018 11:16:59 UTC] PHP Fatal error:  Uncaught exception 'BaconQrCode\Exception\InvalidArgumentException' with message 'Found empty contents' in /home/kooexchange/public_html/demo/qrcode/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php:79
+Stack trace:
+#0 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/Writer/PngWriter.php(35): BaconQrCode\Writer->writeString('', 'UTF-8', 2)
+#1 /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/QrCode.php(563): Endroid\QrCode\Writer\PngWriter->writeString(Object(Endroid\QrCode\QrCode))
+#2 /home/kooexchange/public_html/demo/qrcode/qrcode.php(37): Endroid\QrCode\QrCode->writeString()
+#3 {main}
+  thrown in /home/kooexchange/public_html/demo/qrcode/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php on line 79
+[19-Jul-2018 05:38:56 UTC] PHP Fatal error:  Call to a member function setSize() on null in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 21
+[19-Jul-2018 05:39:14 UTC] PHP Fatal error:  Call to a member function setSize() on null in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 21
+[19-Jul-2018 05:41:06 UTC] PHP Fatal error:  Call to a member function setSize() on null in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 21
+[19-Jul-2018 05:45:33 UTC] PHP Fatal error:  Call to a member function setSize() on null in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 21
+[19-Jul-2018 05:47:01 UTC] PHP Fatal error:  Call to a member function setSize() on null in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 21
+[19-Jul-2018 05:47:25 UTC] PHP Fatal error:  Call to a member function setSize() on null in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 21
+[19-Jul-2018 05:47:27 UTC] PHP Fatal error:  Call to a member function setSize() on null in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 21
+[19-Jul-2018 05:47:44 UTC] PHP Fatal error:  Call to a member function setSize() on null in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 21
+[19-Jul-2018 05:47:46 UTC] PHP Fatal error:  Call to a member function setSize() on null in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 21
+[19-Jul-2018 05:48:42 UTC] PHP Fatal error:  Call to a member function setSize() on null in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 21
+[19-Jul-2018 05:49:08 UTC] PHP Fatal error:  Call to a member function setSize() on null in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 21
+[19-Jul-2018 05:49:09 UTC] PHP Fatal error:  Call to a member function setSize() on null in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 21
+[19-Jul-2018 05:49:11 UTC] PHP Fatal error:  Call to a member function setSize() on null in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 21
+[19-Jul-2018 05:49:13 UTC] PHP Fatal error:  Call to a member function setSize() on null in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 21
+[19-Jul-2018 05:49:14 UTC] PHP Fatal error:  Call to a member function setSize() on null in /home/kooexchange/public_html/demo/qrcode/qrcode.php on line 21
+[19-Aug-2018 11:01:47 UTC] PHP Fatal error:  Out of memory (allocated 1835008) (tried to allocate 2048 bytes) in /home/kooexchange/public_html/demo/qrcode/vendor/bacon/bacon-qr-code/src/BaconQrCode/Renderer/Image/Png.php on line 42
+[29-Sep-2018 10:30:28 UTC] PHP Fatal error:  Out of memory (allocated 6029312) (tried to allocate 1132097 bytes) in /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/Writer/PngWriter.php on line 81
+[02-Oct-2018 06:13:43 UTC] PHP Fatal error:  Out of memory (allocated 4456448) (tried to allocate 786432 bytes) in /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/Writer/PngWriter.php on line 37
+[02-Oct-2018 06:18:29 UTC] PHP Fatal error:  Out of memory (allocated 6815744) (tried to allocate 1193809 bytes) in /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/Writer/PngWriter.php on line 176
+[03-Oct-2018 05:04:03 UTC] PHP Fatal error:  Out of memory (allocated 4456448) (tried to allocate 786432 bytes) in /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/Writer/PngWriter.php on line 37
+[03-Oct-2018 10:23:59 UTC] PHP Fatal error:  Out of memory (allocated 4456448) (tried to allocate 786432 bytes) in /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/Writer/PngWriter.php on line 37
+[03-Oct-2018 10:30:13 UTC] PHP Fatal error:  Out of memory (allocated 5767168) (tried to allocate 2128 bytes) in /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/Writer/PngWriter.php on line 173
+[05-Oct-2018 11:27:56 UTC] PHP Fatal error:  Out of memory (allocated 4456448) (tried to allocate 786432 bytes) in /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/Writer/PngWriter.php on line 37
+[05-Oct-2018 11:28:09 UTC] PHP Fatal error:  Out of memory (allocated 1048576) (tried to allocate 12288 bytes) in /home/kooexchange/public_html/demo/qrcode/vendor/bacon/bacon-qr-code/src/BaconQrCode/Common/Version.php on line 235
+[07-Oct-2018 04:53:38 UTC] PHP Fatal error:  Out of memory (allocated 6815744) (tried to allocate 1193809 bytes) in /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/Writer/PngWriter.php on line 176
+[07-Oct-2018 04:54:09 UTC] PHP Fatal error:  Out of memory (allocated 6553600) (tried to allocate 1193809 bytes) in /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/Writer/PngWriter.php on line 176
+[08-Oct-2018 10:30:49 UTC] PHP Fatal error:  Out of memory (allocated 6029312) (tried to allocate 1132097 bytes) in /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/Writer/PngWriter.php on line 81
+[08-Oct-2018 10:42:19 UTC] PHP Fatal error:  Out of memory (allocated 4456448) (tried to allocate 786432 bytes) in /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/Writer/PngWriter.php on line 37
+[09-Oct-2018 00:39:28 UTC] PHP Fatal error:  Out of memory (allocated 1835008) (tried to allocate 2048 bytes) in /home/kooexchange/public_html/demo/qrcode/vendor/bacon/bacon-qr-code/src/BaconQrCode/Renderer/Image/Png.php on line 42
+[10-Oct-2018 04:22:36 UTC] PHP Fatal error:  Out of memory (allocated 6815744) (tried to allocate 1193809 bytes) in /home/kooexchange/public_html/demo/qrcode/vendor/endroid/qr-code/src/Writer/PngWriter.php on line 176
