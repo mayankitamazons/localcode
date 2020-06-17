@@ -812,6 +812,7 @@ header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Ac
 							 <!--th><?php echo "Grand Total (Inc ".$sstper." % SST)";?></th!-->
 							 <th><?php echo "Grand Total";?></th>
 							<?php } ?>
+							 <th><?php echo $language['delivery_tax']; ?></th>   
 							 <th><?php echo $language["delivery_charges"];?></th>
 							  <th><?php echo $language["membership_discount"];?></th>
 							  <th><?php echo $language['coupon_discount']; ?></th>
@@ -819,6 +820,7 @@ header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Ac
                            
                             <th><?php echo $language['paid_by_wallet'];?></th>
                             <th><?php echo $language['bal_payment'];?></th>
+                       
                        
                            
                             <th class="product_name test_product"><?php echo $language["product_name"];?></th>
@@ -1011,7 +1013,7 @@ header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Ac
 							<?php if($sstper>0){ ?>
 							<?php $incsst = ($sstper / 100) * $total;
 							    $incsst=@number_format($incsst, 2);
-								$incsst=ceiling($incsst,0.05);
+								$incsst=ceiling($incsst,0.05);    
 								 $incsst=@number_format($incsst, 2);
 							    $g_total=@number_format($total+$incsst, 2);
 							 ?>
@@ -1020,13 +1022,14 @@ header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Ac
 							  
 							<?php } else { $g_total=$total;} ?>
 							
-							<td><?php  echo @number_format($row['order_extra_charge'],2); ?></td>
+								<td> <?php  echo @number_format($row['deliver_tax_amount'],2); ?></td>
+							<td><?php  if($row['special_delivery_amount']){echo @number_format($row['order_extra_charge'],2)."+ ".number_format($row['special_delivery_amount'],2)."(Chiness Delivery)";} else {echo @number_format($row['order_extra_charge'],2); } ?></td>
 							<td><?php  echo @number_format($row['membership_discount'],2); ?></td>
 							<td><?php echo @number_format($row['coupon_discount'],2); ?></td>
-							<td><?php  echo @number_format(($g_total+$row['order_extra_charge'])-($row['membership_discount']+$row['coupon_discount']),2); ?></td>
+							<td><?php  echo @number_format(($g_total+$row['order_extra_charge']+$row['deliver_tax_amount']+$row['special_delivery_amount'])-($row['membership_discount']+$row['coupon_discount']),2); ?></td>
 							
 							<td><?php  echo @number_format($row['wallet_paid_amount'],2); ?></td>
-							<td><?php echo @number_format(($g_total+$row['order_extra_charge'])-($row['wallet_paid_amount']+$row['membership_discount']), 2); ?></td>   
+							<td><?php echo @number_format(($g_total+$row['order_extra_charge']+$row['deliver_tax_amount']+$row['special_delivery_amount'])-($row['wallet_paid_amount']+$row['membership_discount']+$row['coupon_discount']), 2); ?></td>   
                            
                           
                             <td class="products_namess product_name_<?php echo $row['id'];?> test_productss" ><?php foreach ($product_ids as $key )
@@ -3236,6 +3239,7 @@ var qtyno = $("input[name='qtyno[]']")
 								 var forder =obj.record;
 								// alert(total_count);
 								// alert(order['product_name']);​
+								var qtyOfInvoice=0;
 								  for (var j = 0, len = total_count; j< total_count; j++) {
 									  // alert(j);
 									   var order=forder[j];
@@ -3254,7 +3258,7 @@ var qtyno = $("input[name='qtyno[]']")
 										 var total_amount =  empty($("#total_amount1").text()) ? 0 : parseFloat($("#total_amount1").text());
                                     total_amount += total;
                                     // total = total.toFixed(2);
-									// alert(total_amount);
+									// alert(total_amount);   
 									$("#paid_wallet_amount").val(total_amount.toFixed(2));
                                     $("#total_amount1").text(total_amount.toFixed(2));
 									var paid=$("#paid").val();
@@ -3270,11 +3274,12 @@ var qtyno = $("input[name='qtyno[]']")
 
 
                                    var i=1;
+								   // alert(i);
                                     var list =
                                         '<tr><td style="text-align:center; padding-left: 5px;width: 8%;" >' + parseInt(document.getElementById("scanned_data1").childElementCount + 1) + '</td>' +
                                         '<td style=" padding-left: 5px;width: 42%;" id="test" class="btl"><input type="hidden" name="user[]" value="'+ order['username'] +'">' + order['username'] + '</td>' +
-                                         '<td style=" text-align:center;padding-left: 5px;width: 22%;"><input type="hidden" name="tablety[]" value="' + order['table_type'] + '">' + order['section_type'] + ''+order['table_type']+'</td>' +
-                                        '<td style="text-align:center; padding-left: 5px;width: 21%;"><input type="hidden" name="invo[]" value="' + order['invoice_no'] + '">' + order['invoice_no'] + '</td>' +
+                                         '<td style=" text-align:center;padding-left: 5px;width: 22%;"><input type="hidden" name="tablety[]" value="' + order['table_type'] + '">' + ''+order['table_type']+'</td>' +
+                                          '<td style="text-align:center; padding-left: 5px;width: 21%;"><input type="hidden" name="invo[]" value="' + order['invoice_no'] + '">' + order['invoice_no'] + '</td>' +
                                         '<td style="display: none"><input type="hidden" name="orderid[]" value="' + order['id'] +'">' + order['id'] +'</td>' +
                                         '<td style="display: none"><input type="hidden" name="section[]" value="' + order['section_type'] +'">' + order['section_type'] +'</td>' +
                                         '<td style="display: none"><input type="hidden" name="product_code[]" value="' + order['product_code'] +'">' + order['product_code'] +'</td>' +
@@ -3289,6 +3294,8 @@ var qtyno = $("input[name='qtyno[]']")
                                           $('#myModalTable').modal('hide');
 										  $('#selected_invoice_id').val('');
 										  // alert(j);
+										  var qtyOfInvoice=0;
+										  var total=0;
 									}
 							}
 							
@@ -3386,7 +3393,7 @@ var qtyno = $("input[name='qtyno[]']")
 										
                                     }
                                     var total_amount =  empty($("#total_amount1").text()) ? 0 : parseFloat($("#total_amount1").text());
-                                    total_amount += total;
+                                     total_amount += total;
                                     total = total.toFixed(2);
 									// alert(total_amount);
 									$("#paid_wallet_amount").val(total_amount.toFixed(2));
@@ -3421,6 +3428,8 @@ var qtyno = $("input[name='qtyno[]']")
                                           $("#invoice_num").val('');
                                            $("#table_num").val('');
                                           $('#InvoiceModel').modal('hide');
+										   var qtyOfInvoice=0;
+										  var total=0;
 
  
                                 }

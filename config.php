@@ -5,7 +5,7 @@ if(!isset($_SESSION))
  session_start();
 }
 error_reporting(0);
-$conn = mysqli_connect("127.0.0.1", "root", "", "koolive20");
+$conn = mysqli_connect("127.0.0.1", "root", "", "lifelocal");
 // $conn2 = mysqli_connect("166.62.120.154", "koofamil_B277", "rSFihHas];1P", "koofamil_B277");
 if(!$conn)
 {

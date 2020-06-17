@@ -26,11 +26,12 @@ $Merchantid = $loginidset;
 if (!empty($invoice)) {
     
 
-$data = mysqli_query($conn, "SELECT * FROM order_list WHERE invoice_no='$invoice' and merchant_id='$Merchantid'");
+$data = mysqli_query($conn, "SELECT order_list.*,sections.name as section_name FROM order_list left join sections on order_list.section_type=sections.id WHERE order_list.invoice_no='$invoice' and order_list.merchant_id='$Merchantid'");
     $array_detail = array();
     while ($row=mysqli_fetch_assoc($data)){
         $user_id = $row['user_id'];
         $section_type = $row['section_type'];
+        $section_name = $row['section_name']."-";
         $merchant_id = $row['merchant_id'];
         $product_ids = explode(",",$row['product_id']);
         $product_qty = explode(",", $row['quantity']);
@@ -55,7 +56,7 @@ $data = mysqli_query($conn, "SELECT * FROM order_list WHERE invoice_no='$invoice
         $sst = $ref_result['sst'];
         $gst = $ref_result['gst'];
         $register = $ref_result['register'];
-        $item = array('register' => $register, 'sst' => $sst, 'gst' => $gst, 'user_id' => $user_id, 'product_code' => $product_code, 'table_type' => $table_type, 'location' => $location, 'remark' => $remark_ids, 'invoice_no' => $row['invoice_no'] , 'status' => $row['status'] , 'id' => $row['id'] , 'username' =>$order_name, 'merchantname' => $merchant_name, 'product_name' => $array_product_names, 'product_qty' => $product_qty, 'product_amt' => $product_amt, 'section_type' => $section_type);
+        $item = array('register' => $register, 'sst' => $sst, 'gst' => $gst, 'user_id' => $user_id, 'product_code' => $product_code, 'table_type' => $table_type, 'location' => $location, 'remark' => $remark_ids, 'invoice_no' => $row['invoice_no'] , 'status' => $row['status'] , 'id' => $row['id'] , 'username' =>$order_name, 'merchantname' => $merchant_name, 'product_name' => $array_product_names, 'product_qty' => $product_qty, 'product_amt' => $product_amt, 'section_type' => $section_name);
         array_push($array_detail, $item);
     }
     echo json_encode($array_detail);
@@ -64,11 +65,13 @@ $data = mysqli_query($conn, "SELECT * FROM order_list WHERE invoice_no='$invoice
 elseif (!empty($id))
 {
 
-$data = mysqli_query($conn, "SELECT * FROM order_list WHERE id='$id'");
+// $data = mysqli_query($conn, "SELECT * FROM order_list WHERE id='$id'");
+$data = mysqli_query($conn, "SELECT order_list.*,sections.name as section_name FROM order_list left join sections on order_list.section_type=sections.id WHERE order_list.invoice_no='$invoice' and order_list.id='$id'");
     $array_detail = array();
     while ($row=mysqli_fetch_assoc($data)){
         $user_id = $row['user_id'];
          $section_type = $row['section_type'];
+		 $section_name = $row['section_name']."-";
         $merchant_id = $row['merchant_id'];
         $product_ids = explode(",",$row['product_id']);
         $product_qty = explode(",", $row['quantity']);
@@ -93,12 +96,12 @@ $data = mysqli_query($conn, "SELECT * FROM order_list WHERE id='$id'");
         $sst = $ref_result['sst'];
         $gst = $ref_result['gst'];
         $register = $ref_result['register'];
-        $item = array('register' => $register, 'sst' => $sst, 'gst' => $gst, 'user_id' => $user_id, 'product_code' => $product_code, 'table_type' => $table_type, 'location' => $location, 'remark' => $remark_ids, 'invoice_no' => $row['invoice_no'] , 'status' => $row['status'] , 'id' => $row['id'] , 'username' =>$order_name, 'merchantname' => $merchant_name, 'product_name' => $array_product_names, 'product_qty' => $product_qty, 'product_amt' => $product_amt, 'section_type' => $section_type);
+        $item = array('register' => $register, 'sst' => $sst, 'gst' => $gst, 'user_id' => $user_id, 'product_code' => $product_code, 'table_type' => $table_type, 'location' => $location, 'remark' => $remark_ids, 'invoice_no' => $row['invoice_no'] , 'status' => $row['status'] , 'id' => $row['id'] , 'username' =>$order_name, 'merchantname' => $merchant_name, 'product_name' => $array_product_names, 'product_qty' => $product_qty, 'product_amt' => $product_amt, 'section_type' => $section_name);
         array_push($array_detail, $item);
     }
     echo json_encode($array_detail);
 
-}
+}   
 else
 {
     echo"something went worng";
